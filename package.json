@@ -1,0 +1,41 @@
+{
+  "name": "learn-memory-statistics-cli",
+  "version": "0.0.0",
+  "description": "A CLI to see statistics from your Learn Memory server.",
+  "main": "learn-memory-statistics.js",
+  "scripts": {
+    "start": "node learn-memory-statistics.js"
+  },
+  "bin": {
+    "learnstats": "learn-memory-statistics.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cedced19/learn-memory-statistics-cli.git"
+  },
+  "keywords": [
+    "cli",
+    "learn",
+    "memory",
+    "statistics",
+    "server",
+    "school"
+  ],
+  "author": "Cédric JUNG <cedced19@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cedced19/learn-memory-statistics-cli/issues"
+  },
+  "homepage": "https://github.com/cedced19/learn-memory-statistics-cli#readme",
+  "dependencies": {
+    "check-update": "0.0.8",
+    "cli-pie": "^2.2.1",
+    "colors": "^1.1.2",
+    "commander": "^2.9.0",
+    "console-title": "^1.0.1",
+    "is-url": "^1.2.1",
+    "learn-memory-statistics": "0.0.0",
+    "number-to-date": "0.0.0",
+    "request": "^2.72.0"
+  }
+}
