@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 var statistics = require('learn-memory-statistics');
 var request = require('request');
 var numberToDate = require('number-to-date');
